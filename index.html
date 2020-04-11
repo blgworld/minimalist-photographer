@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minimalist Photographer Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.scss" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@200;500&family=Nanum+Gothic&display=swap"
+        rel="stylesheet" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <!--Navbar section-->
+    <section id="navbar">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a class="navbar-item logo" href="#"> </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navbarBasicExample"
+                    aria-expanded="false" onclick="toggleBurger()">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item">
+                        Projects
+                    </a>
+
+                    <a class="navbar-item">
+                        Nature
+                    </a>
+                    <a class="navbar-item">
+                        About/Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!--Latest text-->
+        <div class="latest-txt">
+            <h1>
+                Latest
+                <hr />
+            </h1>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+    <script async type="text/javascript" src="./bulma.js"></script>
+</body>
+
+</html>
