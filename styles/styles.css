@@ -37,4 +37,21 @@ body {
     width: 15%;
     margin: auto;
     border-top: 2px solid rgb(100, 100, 100);
+
+}
+
+/*column section*/
+#column {
+    padding-top: 25px;
+    margin: 0% 12%;
+}
+
+.column img {
+    transition: 1.5s;
+
+}
+
+.column img:hover {
+    filter: grayscale(80%);
+    transform: scale(1.1);
 }

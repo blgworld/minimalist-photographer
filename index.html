@@ -1,62 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Minimalist Photographer Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/styles.scss" />
     <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@200;500&family=Nanum+Gothic&display=swap"
-        rel="stylesheet" />
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head>
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@200;500&family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!--Navbar section-->
     <section id="navbar">
-        <nav class="navbar">
-            <div class="navbar-brand">
-                <a class="navbar-item " href="#">
-                    <h1 class="logo"> <i class="fas fa-camera-retro"></i> Minimalist</h1>
-                </a>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <h1 class="logo"><i class="fas fa-camera-retro"></i> Minimalist</h1>
+          </a>
 
-                <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navbarBasicExample"
-                    aria-expanded="false" onclick="toggleBurger()">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                </a>
-            </div>
-            <div id="navbarBasicExample" class="navbar-menu">
-                <div class="navbar-end">
-                    <a class="navbar-item">
-                        Projects
-                    </a>
-
-                    <a class="navbar-item">
-                        Nature
-                    </a>
-                    <a class="navbar-item">
-                        About/Contact
-                    </a>
-                </div>
-            </div>
-        </nav>
-        <!--Latest text-->
-        <div class="latest-txt">
-            <h1>
-                Latest
-                <hr />
-            </h1>
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            data-target="navbarBasicExample"
+            aria-expanded="false"
+            onclick="toggleBurger()"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              Projects
+            </a>
+
+            <a class="navbar-item">
+              Nature
+            </a>
+            <a class="navbar-item">
+              About/Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!--Latest text-->
+      <div class="latest-txt">
+        <h1>
+          Latest
+          <hr />
+        </h1>
+      </div>
+    </section>
+    <!--Columns-->
+
+    <section id="column">
+      <div class="columns">
+        <div class="column">
+          <a href="./photos/cl-01.png" data-lity
+            ><img src="./photos/cl-01-small.png" alt=""
+          /></a>
+        </div>
+        <div class="column">
+          <a href="./photos/cl-02.png"
+            ><img src="./photos/cl-02-small.png" alt=""
+          /></a>
+        </div>
+        <div class="column">
+          <a href="./photos/cl-03.png"
+            ><img src="./photos/cl-03-small.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <a href="./photos/cl-04.png"
+            ><img src="./photos/cl-04-small.png" alt=""
+          /></a>
+        </div>
+        <div class="column">
+          <a href="./photos/cl-05.png"
+            ><img src="./photos/cl-05-small.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <a href="./photos/cl-06.png"
+            ><img src="./photos/cl-06-small.png" alt=""
+          /></a>
+        </div>
+        <div class="column">
+          <a href="./photos/cl-07.png"
+            ><img src="./photos/cl-07-small.png" alt=""
+          /></a>
+        </div>
+
+        <div class="column">
+          <a href="./photos/cl-09.png"
+            ><img src="./photos/cl-09-small.png" alt=""
+          /></a>
+        </div>
+      </div>
     </section>
 
     <script src="app.js"></script>
     <script async type="text/javascript" src="./bulma.js"></script>
-</body>
-
+    <script src="./js/lity.min.js"></script>
+  </body>
 </html>
