@@ -10,7 +10,7 @@ serif; */
 }
 
 body {
-    margin: 3% 3% 0%;
+    margin: 3% 12% 0%;
 }
 
 .navbar-item {
@@ -20,17 +20,32 @@ body {
 .logo {
     font-size: 1.5rem;
     margin-left: 15px;
-    color: rgb(85, 81, 43);
+    color: #7a5c35;
 }
 
-.navbar-item p {
-    font-size: 100%;
+.navbar-item {
+    color: rgb(29, 28, 28);
 }
+
+.navbar-item:hover {
+    color: #7a5c35 !important;
+    background-color: #080808;
+}
+
+.txt:hover {
+    color: brown;
+
+}
+
+
+
+
 
 .latest-txt h1 {
     text-align: center;
     font-size: 200%;
     font-family: "EB Garamond", serif;
+    padding: 2% 0%;
 }
 
 .latest-txt hr {
@@ -54,4 +69,41 @@ body {
 .column img:hover {
     filter: grayscale(80%);
     transform: scale(1.1);
+}
+
+.insta {
+    text-align: end;
+}
+
+.ico {
+    margin: 0px 7px;
+
+}
+
+.ico:hover {
+    color: #7a5c35;
+}
+
+.footer {
+    color: rgb(66, 66, 66);
+    background-color: rgb(255, 255, 255);
+}
+
+.butt {
+    padding: 5% 0%;
+
+}
+
+.column p a {
+    color: black;
+}
+
+.column p a:hover {
+    color: #7a5c35;
+    text-decoration: underline;
+}
+
+.button:hover {
+    color: #fffff8;
+    background-color: #7a5c35;
 }
