@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minimalist Photographer Portfolio</title>
+  <!--links-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
+  <link rel="stylesheet" href="./styles/lightbox.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@200;500&family=Nanum+Gothic&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/project.css">
+
+  <!--scripts-->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script defer src="./js//lightbox-plus-jquery.min.js"></script>
+  <script defer src="./js/app.js"></script>
+</head>
+
+<body>
+  <!--Navbar section-->
+  <section id="navbar">
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <h1 class="logo"><i class="fas fa-camera-retro"></i> Minimalist</h1>
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navbarBasicExample"
+          aria-expanded="false" onclick="toggleBurger()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-item navbar-end">
+          <a class="navbar-item" href="#">
+            <h1 class="txt">Projects</h1>
+          </a>
+
+
+          <a class="navbar-item" href="contact.html">
+            About/Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section id="project-txt">
+      <div class="latest-txt">
+        <h1>Projects
+          <hr>
+        </h1>
+
+      </div>
+    </section>
+    <!--project album-->
+    <section id="album">
+      <div class="columns">
+        <div class="column">
+          <a href="./albums/nature.html"><img src="https://source.unsplash.com/_LuLiJc1cdo/400x400">
+            <p>Nature</p>
+          </a>
+        </div>
+        <div class="column">
+          <a href="./albums/portrait.html"><img src="https://source.unsplash.com/3TLl_97HNJo/400x400">
+            <p>Portrait</p>
+          </a>
+
+        </div>
+        <div class="column"><a href="./albums/color.html"><img src="https://source.unsplash.com/5E5N49RWtbA/400x400">
+            <p>Color</p>
+          </a>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--footer section-->
+    <section id="footer">
+      <footer class="footer">
+        <div class="columns">
+          <div class="column">
+            <h1>
+              Contact: <a class="a-txt" href="#">yourbussiness@gmail.com</a>
+            </h1>
+          </div>
+          <div class="column insta">
+            <div class="fab fa-instagram fa-lg ico"></div>
+            <div class="fab fa-twitter fa-lg ico"></div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+
+
+
+    <script async type="text/javascript" src="./bulma.js"></script>
+
+</body>
+
+</html>

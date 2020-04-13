@@ -1,0 +1,36 @@
+#album {
+    padding-top: 30px;
+    margin: 0% 5%;
+}
+
+.txt {
+    color: burlywood;
+}
+
+.txt:hover {
+    color: burlywood;
+}
+
+.column p {
+    font-size: large;
+    text-align: center;
+    font-family: 'Nanum Gothic',
+        sans-serif;
+    color: rgb(128, 92, 59);
+}
+
+.column h1,
+    {
+    color: rgb(49, 49, 49);
+    font-size: small;
+}
+
+.a-txt {
+    color: rgb(49, 49, 49);
+    font-size: small;
+}
+
+.a-txt:hover {
+    color: #7a5c35;
+    text-decoration: underline;
+}
